@@ -98,8 +98,8 @@ int[,] ReplaceTwoIndexOdd(int[,] array)
 // ReplaceTwoIndexOdd(array1);
 // PrintArray(array1);
 
-53. В двумерном массиве показать позиции числа, заданного пользователем или указать, что такого элемента нет
-Console.WriteLine("Введите число");
+// 53. В двумерном массиве показать позиции числа, заданного пользователем или указать, что такого элемента нет
+// Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int indexI = -1;
 int indexJ = -1;
@@ -134,5 +134,5 @@ for (int i = 0; i < arr.Length; i++)
     Console.Write(arr[i] + " ");
 }
 }
-SeachIndex(array1);
+// SeachIndex(array1);
 
